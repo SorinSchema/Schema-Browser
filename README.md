@@ -43,6 +43,8 @@ python main.py
 ## 🔗 Contribuții
 Dacă dorești să contribui la proiect, creează un fork și trimite un pull request! 😊
 
+## 📞 Contact
+Pentru întrebări sau sugestii, mă poți contacta pe Discord: **sorin.schema**
+
 ## 📜 Licență
 Acest proiect este licențiat sub MIT License. Vezi [LICENSE](LICENSE) pentru mai multe detalii.
-
