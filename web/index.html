@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de start</title>
+    <style>
+        body {
+            /*background-image: linear-gradient(45deg, #030637, #3C0753, #720455, #910A67) !important;*/
+            background-image: linear-gradient(45deg, #13005A, #00337C, #1C82AD, #03C988) !important;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: rgba(256, 256, 256 / 1) !important;
+            font-family: "Poppins", sans-serif !important;
+            font-weight: 400 !important;
+            font-size: 14px !important;
+            user-select: none !important;
+            margin: 0; /* Ensure there's no default margin */
+            padding: 0; /* Ensure there's no default padding */
+            height: 100vh; /* Ensure body takes the full height of the viewport */
+            overflow: hidden; /* Prevent scrolling */
+        }
+
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+        .search-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .search-input {
+            width: 400px;
+            height: 40px;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 20px 0 0 20px;
+            outline: none;
+        }
+        .search-btn {
+            height: 62px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: #4285f4;
+            color: #fff;
+            border-radius: 0 20px 20px 0;
+            cursor: pointer;
+            outline: none;
+        }
+        .rectangle-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .image_1 img{
+            width: 260px;
+            margin-left: 20px;
+            /*margin-bottom: -20px;*/
+            margin-top: -30px;
+            margin-left: 0px;
+            }
+        .image_2 img{
+            width: 230px;
+            /*margin-bottom: -20px;*/
+            margin-top: -65px;
+            margin-left: 20px;
+        }
+        .image_3 img{
+            width: 120px;
+        }
+        .image_4 img{
+            width: 120px;
+        }
+        .image_5 img{
+
+            width: 120px;
+        }
+        .image_6 img{
+            width: 120px;
+        }
+        .rectangle {
+            width: 250px;
+            height: 100px;
+            background-color: #f00;
+            margin-top: 1rem;
+            clip-path: polygon(15% 0, 115% 0, 85% 100%, 15% 100%);
+            transition: all 0.3s ease-in-out; /* Unified transition property */
+            box-shadow: 0 0 5px #000;
+        }
+
+        .rectangle:hover {
+            transform: scale(1.1); /* Example: Rotate on hover */
+            background-color: #b10505; /* Example: Change color on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <form action="https://www.google.com/search" method="GET" class="search-form">
+            <input type="text" name="q" class="search-input" placeholder="Introdu cautarea...">
+            <button type="submit" class="search-btn">Caută</button>
+        </form>
+        <div class="rectangle-container">
+            <div class="rectangle">
+                <div class="image_1">
+                    <a href="https://www.youtube.com"><img src = "yt_logo.png" alt ="YouTube"></a>
+                </div>
+            </div>
+            <div class="rectangle">
+                <div class="image_1">
+                    <a href="https://www.youtube.com"><img src = "yt_logo.png" alt ="YouTube"></a>
+                </div>
+            </div>
+            <div class="rectangle">
+                <div class="image_1">
+                    <a href="https://www.youtube.com"><img src = "yt_logo.png" alt ="Youtube"></a>
+                </div>
+            </div>
+            <div class="rectangle">
+                <div class="image_1">
+                    <a href="https://www.youtube.com"><img src = "yt_logo.png" alt ="YouTube"></a>
+                </div>
+            </div>
+            <div class="rectangle">
+                <div class="image_1">
+                    <a href="https://www.youtube.com"><img src = "yt_logo.png" alt ="YouTube"></a>
+                </div>
+            </div>
+            <div class="rectangle">
+                <div class="image_1">
+                    <a href="https://www.youtube.com"><img src = "yt_logo.png" alt ="YouTube"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
